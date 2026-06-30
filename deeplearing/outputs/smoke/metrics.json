@@ -1,0 +1,46 @@
+{
+  "test_metrics": {
+    "accuracy": 0.1574074074074074,
+    "macro_precision": 0.03148148148148148,
+    "macro_recall": 0.1574074074074074,
+    "macro_f1": 0.05246913580246914
+  },
+  "classes": [
+    "CellType_0",
+    "CellType_1",
+    "CellType_2",
+    "CellType_3",
+    "CellType_4",
+    "CellType_5"
+  ],
+  "num_genes": 600,
+  "num_cells": 720,
+  "mlp_history": {
+    "train_loss": [
+      1.7596307396888733
+    ],
+    "val_loss": [
+      1.7222482562065125
+    ],
+    "val_accuracy": [
+      0.4537037037037037
+    ],
+    "val_macro_f1": [
+      0.40066981436710103
+    ]
+  },
+  "sccat_history": {
+    "train_loss": [
+      1.8107990026474
+    ],
+    "val_loss": [
+      1.7931394577026367
+    ],
+    "val_accuracy": [
+      0.17592592592592593
+    ],
+    "val_macro_f1": [
+      0.06638250848527903
+    ]
+  }
+}
